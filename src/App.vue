@@ -2,7 +2,7 @@
   <v-app id="inspire">
     <Sidebar :drawer="drawer" />
     <Topbar @drawerEvent="drawer = !drawer" />
-    <v-main style="background: #f5f5f540">
+    <v-main style="background: #F8F8F8">
       <v-container class="py-8 px-6" fluid>
         <router-view></router-view>
       </v-container>

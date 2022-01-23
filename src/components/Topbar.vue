@@ -2,20 +2,7 @@
   <v-app-bar app elevate-on-scroll elevation="3" color="white">
     <v-app-bar-nav-icon @click="$emit('drawerEvent')"></v-app-bar-nav-icon>
     <v-spacer />
-    <v-col lg="6" cols="12">
-      <v-form>
-        <v-text-field
-          class="p-0 m-0 mt-6"
-          full-width
-          dense
-          append-icon="mdi-magnify"
-          outlined
-          rounded
-          placeholder="Search"
-        />
-      </v-form>
-    </v-col>
-    <v-spacer />
+    
     <v-menu offset-y>
       <template v-slot:activator="{ attrs, on }">
         <span
@@ -64,22 +51,22 @@
           <v-chip link>
             <v-badge dot bottom color="green" offset-y="10" offset-x="10">
               <v-avatar size="40">
-                <v-img src="https://randomuser.me/api/portraits/women/81.jpg" />
+                <v-img src="https://eu.ui-avatars.com/api/?name=Jonas+Van+der+Reysen&background=0D8ABC&color=fff" />
               </v-avatar>
             </v-badge>
-            <span class="ml-3">Jane Smith</span>
+            <span class="ml-3">Jonas Van der Reysen</span>
           </v-chip>
         </span>
       </template>
       <v-list width="250" class="py-0">
         <v-list-item two-line>
           <v-list-item-avatar>
-            <img src="https://randomuser.me/api/portraits/women/81.jpg" />
+            <img src="https://eu.ui-avatars.com/api/?name=Jonas+Van+der+Reysen&background=0D8ABC&color=fff" />
           </v-list-item-avatar>
 
           <v-list-item-content>
-            <v-list-item-title>Jane Smith</v-list-item-title>
-            <v-list-item-subtitle>Logged In</v-list-item-subtitle>
+            <v-list-item-title>Jonas Van der Reysen</v-list-item-title>
+            <v-list-item-subtitle>Beheerder</v-list-item-subtitle>
           </v-list-item-content>
         </v-list-item>
         <v-divider />
@@ -109,9 +96,9 @@ export default {
       ],
       items: [
         {
-          avatar: "https://cdn.vuetifyjs.com/images/lists/1.jpg",
-          title: "Brunch this weekend?",
-          subtitle: `<span class="text--primary">Ali Connors</span> &mdash; I'll be in your neighborhood doing errands this weekend. Do you want to hang out?`,
+          avatar: "https://image.similarpng.com/very-thumbnail/2021/06/Attention-sign-icon.png",
+          title: "URGEN SECURITY ALERT",
+          subtitle: `<span class="text--primary">URGENT</span> &mdash; Something important is about to happen, you should really make your way outta here.`,
         },
         { divider: true, inset: true },
         {
