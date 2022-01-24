@@ -10,6 +10,11 @@
   </v-app>
 </template>
 
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+</style>
+
+
 <script>
 import Sidebar from "./components/Sidebar";
 import Topbar from "./components/Topbar";

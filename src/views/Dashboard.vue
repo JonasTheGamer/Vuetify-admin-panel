@@ -18,7 +18,7 @@
                             <v-card-text class="d-flex justify-space-between align-center">
                                 <div>
                                     <strong>{{ item.title }}</strong> <br>
-                                    <span>Last 3 weeks</span>
+                                    <span>{{ item.subtitle || 'niks'}}</span>
                                 </div>
                                 <v-avatar size="60" :color="item.color" style="border: 3px solid #444">
                                     <span style="color: white">{{item.amount}} +</span>
@@ -69,7 +69,7 @@
                             :items-per-page="5"
                             class="elevation-1"
                     >
-                        <template v-slot:item.action="">
+                        <template v-slot:[`item.action`]="">
                             <v-btn color="success" outlined small shaped >View</v-btn>
                         </template>
                     </v-data-table>
@@ -85,7 +85,7 @@
         data() {
             return {
                 activityLog: [
-                    {title: 'Total Products', amount: 50, icon: 'mdi-account', color: 'cyan lighten-3'},
+                    {title: 'Aantal licenties', amount: 50, icon: 'mdi-account', color: 'cyan lighten-3'},
                     {title: 'Total Customer', amount: 3433, icon: 'mdi-account-group-outline', color: 'green darken-2'},
                     {title: 'Total Sale', amount: 3433, icon: 'mdi-account-group-outline', color: 'blue-grey darken-1'},
                     {

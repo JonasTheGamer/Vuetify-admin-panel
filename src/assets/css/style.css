@@ -1,0 +1,8 @@
+.font-bungee {
+    color: white;
+    font-family: 'Bungee', cursive;
+}
+
+.v-application--is-ltr .v-list--dense.v-list--nav .v-list-group--no-action>.v-list-group__items>.v-list-item {
+    padding-left: 32px;
+}

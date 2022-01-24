@@ -10,6 +10,12 @@ const routes = [{
             import ('./../views/Dashboard')
     },
     {
+        path: '/settings/licenses',
+        name: 'licenses',
+        component: () =>
+            import ('./../views/Licenses')
+    },
+    {
         path: '/about',
         name: 'about',
         component: () =>

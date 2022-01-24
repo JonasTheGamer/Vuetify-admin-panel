@@ -5,8 +5,11 @@ import router from './router'
 
 Vue.config.productionTip = false
 
+// Import CSS styles
+require('@/assets/css/style.css');
+
 new Vue({
-  vuetify,
-  router,
-  render: h => h(App)
+    vuetify,
+    router,
+    render: h => h(App)
 }).$mount('#app')
