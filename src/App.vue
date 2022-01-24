@@ -1,6 +1,6 @@
 <template>
   <v-app id="inspire">
-    <Sidebar :drawer="drawer" />
+    <Sidebar :drawer="drawer"/>
     <Topbar @drawerEvent="drawer = !drawer" />
     <v-main style="background: #F8F8F8">
       <v-container class="py-8 px-6" fluid>

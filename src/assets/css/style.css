@@ -6,3 +6,8 @@
 .v-application--is-ltr .v-list--dense.v-list--nav .v-list-group--no-action>.v-list-group__items>.v-list-item {
     padding-left: 32px;
 }
+
+navlink {
+    color: #03c6fc;
+    cursor: pointer;
+}
